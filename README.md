@@ -1,3 +1,5 @@
 # portfolio
 
-Check out some of the cool project I'm working on and more about me! 
+My personal website. 
+
+- Build with HTML, CSS, and JS. 
