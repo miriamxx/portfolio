@@ -1,5 +1,5 @@
 # Portfolio
 
-My personal website. 
+My personal website.
 
-- Build with HTML, CSS, and JS. 
+
