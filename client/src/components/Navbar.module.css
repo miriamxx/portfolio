@@ -1,0 +1,20 @@
+.navbarContainer {
+  background-color: #8470FF;
+  padding: 0.5rem 1rem;
+}
+.brand {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+.navLink {
+  color: #fff;
+  text-decoration: none;
+}

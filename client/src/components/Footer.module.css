@@ -1,0 +1,9 @@
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: transparent;
+}
+.toTop {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}

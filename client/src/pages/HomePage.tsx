@@ -2,6 +2,7 @@ import React from 'react'
 import profilePic from '../assets/images/profile_pic.JPG'
 import educationImg from '../assets/images/education.png'
 import resumeImg from '../assets/images/resume.png'
+import styles from './HomePage.module.css'
 
 export default function HomePage(){
   return (
@@ -49,7 +50,7 @@ export default function HomePage(){
         <h2>RESUME</h2>
         <img src={resumeImg} alt="resume" width={50} height={50} />
         <br />
-        <button className="btn btn-lg" onClick={() => window.open('/client/src/assets/resume/Official Resume .pdf', '_blank')}>View</button>
+        <button className={`btn btn-lg ${styles.resumeButton}`} onClick={() => window.open('/client/src/assets/resume/Official Resume .pdf', '_blank')}>View</button>
       </section>
 
       <section id="contact" className="container-fluid bg-grey">
