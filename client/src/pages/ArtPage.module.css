@@ -1,0 +1,13 @@
+.h1 {
+  color: #BE5985;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.text {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

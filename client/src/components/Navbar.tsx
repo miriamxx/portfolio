@@ -6,18 +6,17 @@ export default function Navbar(){
   return (
     <nav className={styles.navbarContainer}>
       <div className="container">
-        <div className="navbar-header">
-          <Link className={styles.brand} to="/">Miriam Espino</Link>
-        </div>
-        <div className="navbar-collapse">
-          <ul className={styles.navList}>
-            <li><a className={styles.navLink} href="#about">ABOUT</a></li>
-            <li><a className={styles.navLink} href="#services">PROGRAMMING LANGUAGES</a></li>
-            <li><a className={styles.navLink} href="#portfolio">RESUME</a></li>
-            <li><Link className={styles.navLink} to="/projects">PROJECTS</Link></li>
-            <li><Link className={styles.navLink} to="/art">MY ART</Link></li>
-            <li><a className={styles.navLink} href="#contact">CONTACT</a></li>
-          </ul>
+        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%'}}>
+          <Link className={styles.brand} to="/home">Home</Link>
+          <div className="navbar-collapse">
+            <ul className={styles.navList}>
+              <li><a className={styles.navLink} href="/about">About</a></li>
+              <li><a className={styles.navLink} href="/experience">Experience</a></li>
+              <li><Link className={styles.navLink} to="/projects">Projects</Link></li>
+              <li><Link className={styles.navLink} to="/art">Art</Link></li>
+              <li><a className={styles.navLink} href="/contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
