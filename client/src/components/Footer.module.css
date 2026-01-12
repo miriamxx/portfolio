@@ -1,0 +1,80 @@
+.footer {
+  background-color: #BE5985;
+  color: white;
+  margin-top: auto;
+  padding: 3rem 2rem 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footerHeading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contactLink {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 0.25rem;
+  width: fit-content;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.contactLink:hover {
+  opacity: 0.8;
+  border-bottom: 2px solid white;
+}
+
+.footerBottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.toTop {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.toTop:hover {
+  transform: translateY(-4px);
+}
+
+.contactText {
+text-wrap: wrap;
+width: 250px;
+font-size: 0.85rem;
+}
